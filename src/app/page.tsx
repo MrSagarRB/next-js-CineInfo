@@ -3,7 +3,7 @@ import Movie from "./Movie";
 
 export default async function Home() {
   const data = await fetch(
-    `https://api.themoviedb.org/3/movie/popular?api_key=${process.env.API_KEY}`
+    `https://api.themoviedb.org/3/movie/popular?api_key=f1005566015b35ce530ea53658440821`
   );
   const res = await data.json();
   console.log(res);
