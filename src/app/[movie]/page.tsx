@@ -1,7 +1,7 @@
 import React from "react";
 
 interface paramsObj {
-  params: number;
+  params: any;
 }
 
 const MovieDetails = async ({ params }: paramsObj) => {
