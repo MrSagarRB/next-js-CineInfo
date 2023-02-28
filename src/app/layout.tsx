@@ -12,7 +12,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className=" bg-black  text-[#fff] mx-32 my-12">{children}</body>
+      <body className=" bg-black  text-[#fff] lg:mx-32 my-12">{children}</body>
     </html>
   );
 }

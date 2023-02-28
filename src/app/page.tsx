@@ -6,7 +6,7 @@ export default async function Home() {
     `https://api.themoviedb.org/3/movie/popular?api_key=f1005566015b35ce530ea53658440821`
   );
   const res = await data.json();
-  console.log(res);
+  // console.log(res);
 
   return (
     <main>
