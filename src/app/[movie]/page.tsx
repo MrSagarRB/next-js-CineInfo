@@ -31,7 +31,7 @@ const MovieDetails = async ({ params }: paramsObj) => {
       <div className="flex  space-x-4">
         {res.production_companies.map((item: prodCompType) => {
           return (
-            <div>
+            <div key={item.id}>
               <div className="h-[100px] w-[100px]">
                 {" "}
                 <Image
