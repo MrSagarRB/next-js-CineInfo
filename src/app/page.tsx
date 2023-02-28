@@ -11,7 +11,7 @@ export default async function Home() {
     <main>
       <h1>The CineInfo - By Sagar using Next JS 13.2</h1>
       <div className="grid gap-16 grid-cols-fluid ">
-        {res.results.map((movie: MovieType) => {
+        {res?.results?.map((movie: MovieType) => {
           return <Movie key={movie.id} movie={movie} />;
         })}
       </div>
